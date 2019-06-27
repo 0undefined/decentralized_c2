@@ -1,0 +1,13 @@
+*.beam
+*idfile
+*.dump
+__init__.py
+*.pyc
+*.zip
+*.gv
+*.bbl
+*.blg
+*.nav
+*.snm
+auto/
+tmp/
