@@ -27,21 +27,3 @@ Further, each node with the right authority should be able to issue commands to
 the network, thereby alleviating problem of single point of failure. All
 communication in the network will be accomplished securely, using public/private
 key methods.
-
-
-# Roadmap
-
-0. [x] Hello world!
-       Hello world from the shell!
-1. [x] First contact
-       Connect 2 nodes
-2. [x] Autoconfiguration
-    * [x] Auto balancing
-    * [x] Off-loading, ie. dropping connections in order to not have too many.
-    * [x] On-loading, ie. taking on peers to meet minimum quota
-3. [x] Command propagation
-4. [x] Remember known nodes in some persistent storage
-
-
-* [x] Expand theory
-* [x] Add comparison with traditional C2 servers
