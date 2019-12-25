@@ -1,6 +1,23 @@
 # Distributed command & control server
 
-This is our bachelor project in computer science.
+A distributed command and control server, decoupling the single point of
+failure.
+
+
+## Disclaimer
+
+It should be noted that this project is far from being production ready. The
+whole implementation assumes that a connection is established mutually between
+nodes, however each connection is one-way and is not handled appropriately.
+
+Furthermore, each node shares the same erlang-cookie, which allows any node to
+take control of the whole network.
+
+There also isn't any verification that any command is submitted by a trusted
+authority in the network.
+
+
+It is a mere proof of concept with some very naive assumptions, security wise.
 
 
 # Project description
